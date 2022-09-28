@@ -1,0 +1,52 @@
+#footer-top{
+        display: flex;
+        height: 180px;
+        background-image:url("https://n.nordstrommedia.com/id/e63e8dd7-3537-47db-912c-7d370e63658f.jpeg?h=180&w=1600");
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+}
+#footer-top p{
+        display: inline;
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+     
+}
+#footer-top a{
+        
+        color: white;
+        margin-top: 4%;
+}
+#sign-up{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        border: 0px solid;
+}
+*{
+        box-sizing: border-box;
+}
+#sign-up p{
+       padding: 15px 20px;
+        display: inline;
+        width:1%;
+       border:0px solid;
+       font-size: 15px;
+       font-weight: 600;
+}
+input[type="email"]{
+        padding: 10px 40px 10px 5px;
+        font-size: 20px;
+       border:1px solid wheat;
+       outline: none;
+}
+input[type="submit"]{
+    padding: 10px 80px;
+    background-color:#00819d ;
+    color:white;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #00819d ;
+}
