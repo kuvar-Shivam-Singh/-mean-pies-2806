@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+  #signpage-child{
+      width:25%;
+      margin: auto;
+      border: 0px solid;
+      
+  }
+  #signpage-parent{
+         width:100%;
+         height:100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border: 1px solid;
+  }
+  *{
+        box-sizing: border-box;
+  }
+#signpage-child >p:nth-child(1){
+         font-size: 30px;
+}
+#signpage-child >p:nth-child(2){
+        font-size: 15px;
+}
+ .shiv>a{
+       color: #00819d;
+ }
+.shiv{
+        font-size: 15px;
+        line-height: 25px;
+} 
+
+#signpage-child input[type="email"]{
+        width:100%;
+        padding:10px 20px 10px 3px ;
+        font-size: 15px;
+        outline: none;
+        margin-top: 8px;
+        border: 1px solid rgb(104, 102, 102);
+        border-bottom:3px solid #00819d;
+}
+#signpage-child input[type="submit"]{
+        width:100%;
+        padding:10px 20px 10px 3px ;
+        font-size: 20px;
+        outline: none;
+        margin-top: 8px;
+        background-color: #00819d;
+        color: white;
+        border: 1px solid #00819d;
+}
+#signpage-child input[type="submit"]:hover{
+        background-color: white;
+        color:#00819d;
+}
+#signpage-child h5{
+        margin-bottom: -1px;
+}
+        </style>
+       
+</head>
+<body>
+        <div id="signpage-parent">
+        <div id="signpage-child">
+         <p>Sign In | Create Account</p>
+         <p>Enter Your Email Get Started.</p>
+         
+         <h5>Email</h5>
+         <form action="">
+         <input type="email" name="" id="">
+
+         <p class="shiv">By tapping Next, you agree   to our <a href=""> Privacy Policy </a>  and <a href=""> Terms & Conditions.</a></p>
+         <input type="submit" value="Next">
+        </form>
+        </div>
+       </div>
+</body>
+</html>
