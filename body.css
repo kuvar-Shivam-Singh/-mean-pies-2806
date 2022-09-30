@@ -1,0 +1,185 @@
+ #today{
+        width:95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        border: 0px solid;
+
+ }
+ #today > div{
+        border: 0px solid;
+ }
+ #today p, #today h3{
+        margin-left: 3%;
+ }
+ h1{
+        text-align: center;
+ }
+ #today img{
+        display: block;
+        margin: auto;
+        width:95%;
+ }
+ #newarrival{
+       width:95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        border: 0px solid;
+        
+ }
+ #newarrival h2{
+       margin-top: -100px;
+ }
+ #newarrival a{
+       color:#00819d  ;
+ }
+ #newarrival+h1{
+       margin-top:5%;
+ }
+ #season{
+       display: flex;
+       width:95%;
+       margin: auto;
+       justify-content: space-between;
+       border: 0px solid;
+     
+ }
+ #season >div{
+       border: 0px solid;
+ }
+ #season img{
+       display: block;
+       /* margin: auto; */
+       width:96%;
+       border: 0px solid;
+       
+ }
+ #season >div:nth-child(2) img{
+       margin-left: 4%;
+ }
+ #season a{
+       color:#00819d ;
+       
+ }
+ #season >div:nth-child(2)>p,#season >div:nth-child(2)>h2,#season >div:nth-child(2)>a{
+       margin-left: 4%;
+ }
+ #somewhere{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       width:95%;
+       margin: auto;
+       justify-content: space-between;
+       border: 0px solid;
+     
+ }
+ #somewhere >div{
+       border:0px solid;
+ }
+ #somewhere img{
+       width:100%;
+       display: block;
+       margin: auto;
+       border: 0px solid;
+ }
+ #somewhere a{
+       color: #00819d;
+ }
+ #somewhere >div:nth-child(2)>a{
+       color:#00819d ;
+       display: block;
+       margin-top: 3%;
+ }
+ #season+h1{
+       margin-top: 5%;
+ }
+#more{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       width:95%;
+       margin: auto;
+       justify-content: space-between;
+       border: 0px solid;
+     
+}
+#more img{
+      width:100%;
+}
+#more a{
+       color: #00819d;
+}
+#somewhere+h1{
+       text-align: center;
+       margin-top: 4%;
+       margin-bottom: 4%;
+}
+.dropbtn {
+     
+      background-color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+  
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 250px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content p{
+        font-size: 15px;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px ;
+      text-decoration: none;
+          font-size: 13px;
+
+    }
+    .dropdown-content button{
+      padding:5px;
+      width:90%;
+      display: block;
+      margin: auto;
+      font-size: 15px;
+      
+      background-color: #00819d;
+      border:1px solid #00819d;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content button:hover{
+      background-color: white;
+      color: #00819d;
+
+    }
+    .dropdown-content p:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+   h5{
+      margin-left: 4%;
+      margin-bottom: -5px;
+   }
+    
+    
