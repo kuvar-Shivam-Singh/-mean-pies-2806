@@ -52,4 +52,57 @@ const swiper = new Swiper('.swiper', {
         {image:"https://n.nordstrommedia.com/id/sr3/326eb703-cf88-467b-a000-3eadaee81f94.jpeg?q=45&dpr=2&h=365.31&w=230"},
  
       ]
-     
+   let button=document.querySelector(".bottom-top")
+   button.addEventListener("click",topfun)
+    function topfun (){
+      document.documentElement.scrollTop = 0;
+    }
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       button.style.display = "block";
+      } else {
+      button.style.display = "none";
+      }
+    }
+let date=JSON.parse(localStorage.getItem("obj"))
+console.log(date)
+let namess=document.querySelector(".dropbtn>span");
+let names=document.querySelector("#name");
+
+
+
+names.innerText=date.first
+
+if(names.innerText==date.first){
+  names.style.backgroundColor="white"
+  names.style.border="none"
+}
+
+namess.innerText="Hi"+"  "+date.first
+
+let form=document.querySelector("#form")
+ form.addEventListener("submit",myfun)
+ let print=document.querySelector(".shivom");
+function myfun(e){
+ e.preventDefault()
+ let email=form.email.value
+ if(email==""){
+    print.innerText="Enter the email address like this: name@email.com"
+
+
+    
+ }
+ else{
+  print.innerText="Stay tuned for the latest updates on new arrivals, special offers and more - all delivered straight to your inbox. "
+ }
+    
+        
+  }
+
+
+
+
+  
+

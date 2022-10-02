@@ -1,0 +1,330 @@
+body{
+        margin: 0px;
+        padding: 0px;
+        
+}
+#navbar-top{
+        width:100%;
+        background-color: #00819d;
+        padding: 10px 0px;
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', ;
+}
+#navbar-top >p{
+ display: inline;
+
+}
+#navbar-top >a{
+        color: white;
+}
+#navbar-middle{
+        border:0px solid;
+        display: flex;
+        
+        justify-content: space-between;
+        padding: 20px 40px;
+        /* background-color: #c4c9ca; */
+        align-items: center;
+         /* justify-content: center;  */
+}
+
+#navbar-middle >div:nth-child(1){
+    width:6%;
+}
+#navbar-middle >div:nth-child(3){
+        width:15%;
+        font-size: 20px;
+        
+        
+    }
+     #navbar-middle >div:nth-child(3) p{
+      
+    } 
+
+
+
+
+
+
+
+    #navbar-middle >div:nth-child(2){
+        width:45%;
+        border:1px solid;
+    }
+#navbar-middle img{
+ width:100%;
+}
+
+#navbar-middle span:nth-child(1){
+        font-size: 24px;
+}
+
+#shop{
+        margin-left: 20px;
+        font-size: 30px;
+     
+}
+
+
+hr{
+        width:95%;
+        
+       
+
+}
+.fa-magnifying-glass{
+        align-self: center;
+        /* padding: 10px 20px; */
+        font-size:25px;
+        padding-top: 10px;
+}
+#navbar-middle input{
+        width: 80%;
+        padding: 10px;
+        border: none;
+        margin-top: -5pxpx;
+        outline: none;
+        font-size: 20px;
+
+}
+#navbar-bottom{
+        border:0px solid;
+       display: flex;
+       padding:0px 80px ;
+      justify-content:space-between ;
+    
+        
+} 
+
+#navbar-bottom a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        
+}
+
+#navbar-bottom #flash-events{
+        color:#00819d;
+}
+#sign-in{
+       width:30%;
+       margin:auto;
+       text-align: center;
+}
+
+#sign-in button a:hover{
+        color: white;
+}
+#sign-in button {
+        padding: 10px;
+        font-size: 16px;
+        color:#00819d;
+      border:1px solid #00819d;
+       
+        background-color: white;
+}
+#sign-in button:hover{
+        background-color:#00819d ;
+        color: white;
+}
+#bg-image{
+        width:95%;
+        margin: auto;
+        margin-top: 10vh;
+        width:100%;
+        height:200px;
+        background-image: url("https://n.nordstrommedia.com/id/a1bc3571-f42c-44b7-99a8-58bb65c6ee2c.jpeg?h=200&w=1608");
+       
+}
+
+
+#swipe-image-1{
+        width:95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        border: 0px solid;
+        
+      
+}
+.swiper .swiper-button-prev {
+      color: black;
+}
+.swiper .swiper-button-next{
+        color: black;
+}
+#swipe-image-1 a{
+        padding:0px 20px 0px 0px;
+        color: #00819d;
+}
+#swipe-image-1 h2{
+      margin-top: -100px;
+}
+#top{
+        margin-top: -100px;  
+}
+.shivom{
+        text-align:right;
+       margin-right: 400px;
+        color: red;
+}
+#footer-top{
+        margin-top: 10vh;
+        display: flex;
+        height: 180px;
+        background-image:url("https://n.nordstrommedia.com/id/e63e8dd7-3537-47db-912c-7d370e63658f.jpeg?h=180&w=1600");
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 0px solid;
+}
+#footer-top p{
+        display: inline;
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+     
+}
+#footer-top a{
+        
+        color: white;
+        margin-top: 4%;
+}
+#sign-up{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        border: 0px solid;
+}
+*{
+        box-sizing: border-box;
+}
+#sign-up p{
+       padding: 15px 20px;
+        display: inline;
+        width:1%;
+       border:0px solid;
+       font-size: 15px;
+       font-weight: 600;
+}
+#sign-up input[type="email"]{
+        display: inline;
+        padding: 10px 40px 10px 5px;
+        font-size: 20px;
+       border:1px solid wheat;
+       outline: none;
+      
+}
+ input[type="submit"]{
+        display: inline;
+    padding: 10px 80px;
+    background-color:#00819d ;
+    color:white;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #00819d ;
+    
+}
+#footer-bottom{
+        display:grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 10px;
+        height:60vh;
+        background-color: #f9f9f9;
+        margin-top:10vh;
+}
+#footer-bottom >div {
+        border: 0px solid;
+      
+        
+}
+#footer-bottom li{
+        list-style: none;
+        margin:10% 0%;
+        font-size: 17px;
+        
+}
+#footer-bottom li>a{
+        color: black;
+        text-decoration: none;
+}
+#footer-bottom p{
+        margin-left: 14%;
+        font-size: 20px;
+        font-weight: 800;
+}
+
+.fa-mobile-screen-button{
+
+        font-size: 25px;
+        margin:20px 0px 0px 20px;
+}
+#footer-bottom >div:nth-child(6)>p{
+        font-size: 15px;
+
+        
+}
+#footer-bottom >div:nth-child(6)> p > .fa-brands{
+ margin:5px 7px;
+ font-size: 17px;
+}
+#footer-bottom >div:nth-child(6) a{
+        font-size: 18px;
+        text-decoration: none;
+        margin:10px 0px 5px 10px;
+        color:black;
+
+}
+#footer-bottom >div:nth-child(6) >div{
+        margin-right: 0px;
+        border:0px solid;
+        display: inline;
+        margin-left: 110px;
+        background-color: white;
+}
+.fa-chevron-up{
+
+        font-size: 25px;
+        
+}
+#footer-bottom a:hover{
+    text-decoration: underline;
+    color: #00819d;
+}
+#footer-bottom>div>span{
+        font-size: 18px;
+}
+#footer-bottom>div>span:hover{
+        text-decoration: underline;
+     color: #00819d;
+}
+#footer-bottom >div >p>a:hover{
+     text-decoration: underline;
+     color: #00819d;
+}
+div > .fa-solid:hover{
+        text-decoration: underline;
+        color: #00819d;
+}
+.bottom-top{
+        position: fixed;
+        z-index: 99;
+        display: none;
+        background-color: #00819d;
+        right: 30px;
+        bottom: 20px;
+        background-color: rgb(130, 134, 137);
+        color: rgb(208, 198, 198);
+        border: 1px solid aliceblue;
+}
+.bottom-top:hover {
+        background-color: #555; 
+        color: white;
+      }
+
+
+
